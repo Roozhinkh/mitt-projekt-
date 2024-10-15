@@ -59,7 +59,7 @@ class Game:                             # denna klass hanterar själva spelet, t
                 break
 
             self.active_player = self.player2 if self.active_player == self.player1 else self.player1
-
+# hello
     def manage_move(self):
         while True:
             try:
